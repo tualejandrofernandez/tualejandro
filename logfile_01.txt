@@ -1,0 +1,93 @@
+*********************** Log Started 2022-05-13T03:29:10Z ***********************
+*************************** Core22 Folding@home Core ***************************
+       Core: Core22
+       Type: 0x22
+    Version: 0.0.20
+     Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+  Copyright: 2020 foldingathome.org
+   Homepage: https://foldingathome.org/
+       Date: Jan 20 2022
+       Time: 00:57:52
+   Revision: 3f211b8a4346514edbff34e3cb1c0e0ec951373c
+     Branch: HEAD
+   Compiler: GNU 9.4.0
+    Options: -faligned-new -std=c++11 -fsigned-char -ffunction-sections
+             -fdata-sections -O3 -funroll-loops -fno-pie
+             -DOPENMM_VERSION="\"7.7.0\""
+   Platform: linux 5.11.0-1025-azure
+       Bits: 64
+       Mode: Release
+Maintainers: John Chodera <john.chodera@choderalab.org> and Peter Eastman
+             <peastman@stanford.edu>
+       Args: -dir 00 -suffix 01 -version 706 -lifeline 1440 -checkpoint 15
+             -opencl-platform 0 -opencl-device 0 -cuda-device 0 -gpu-vendor
+             nvidia -gpu 0 -gpu-usage 100
+************************************ libFAH ************************************
+       Date: Jan 20 2022
+       Time: 00:57:22
+   Revision: 9f4ad694e75c2350d4bb6b8b5b769ba27e483a2f
+     Branch: HEAD
+   Compiler: GNU 9.4.0
+    Options: -faligned-new -std=c++11 -fsigned-char -ffunction-sections
+             -fdata-sections -O3 -funroll-loops -fno-pie
+   Platform: linux 5.11.0-1025-azure
+       Bits: 64
+       Mode: Release
+************************************ CBang *************************************
+       Date: Jan 20 2022
+       Time: 00:57:00
+   Revision: ab023d155b446906d55b0f6c9a1eedeea04f7a1a
+     Branch: HEAD
+   Compiler: GNU 9.4.0
+    Options: -faligned-new -std=c++11 -fsigned-char -ffunction-sections
+             -fdata-sections -O3 -funroll-loops -fno-pie -fPIC
+   Platform: linux 5.11.0-1025-azure
+       Bits: 64
+       Mode: Release
+************************************ System ************************************
+        CPU: Intel(R) Xeon(R) CPU @ 2.20GHz
+     CPU ID: GenuineIntel Family 6 Model 79 Stepping 0
+       CPUs: 2
+     Memory: 12.68GiB
+Free Memory: 7.54GiB
+    Threads: POSIX_THREADS
+ OS Version: 5.4
+Has Battery: false
+ On Battery: false
+ UTC Offset: 0
+        PID: 1444
+        CWD: /content/work
+************************************ OpenMM ************************************
+    Version: 7.7.0
+********************************************************************************
+Project: 18601 (Run 85, Clone 0, Gen 27)
+Reading tar file core.xml
+Reading tar file integrator.xml
+Reading tar file state.xml.bz2
+Reading tar file system.xml.bz2
+Digital signatures verified
+Folding@home GPU Core22 Folding@home Core
+Version 0.0.20
+  Checkpoint write interval: 25000 steps (2%) [50 total]
+  JSON viewer frame write interval: 12500 steps (1%) [100 total]
+  XTC frame write interval: 20000 steps (1.6%) [62 total]
+  Global context and integrator variables write interval: disabled
+There are 4 platforms available.
+Platform 0: Reference
+Platform 1: CPU
+Platform 2: OpenCL
+  opencl-device 0 specified
+Platform 3: CUDA
+  cuda-device 0 specified
+Attempting to create CUDA context:
+  Configuring platform CUDA
+  Using CUDA and gpu 0
+Completed 0 out of 1250000 steps (0%)
+Checkpoint completed at step 0
+Completed 12500 out of 1250000 steps (1%)
+Completed 25000 out of 1250000 steps (2%)
+Checkpoint completed at step 25000
+Completed 37500 out of 1250000 steps (3%)
+Caught signal SIGINT(2) on PID 1444
+Exiting, please wait. . .
+Folding@home Core Shutdown: INTERRUPTED
